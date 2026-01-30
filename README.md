@@ -6,7 +6,7 @@ This project is a Web-based Expense Tracker built with HTML, CSS, PHP, and MySQL
 
 
 ## 📁 Project Structure
-We are using a clean folder structure to stay organized. Please put your files in the correct folders:
+
 📂 Database_Setup: Contains the database connection and the SQL table scripts.
 📂 App_Logic: The "Engine" of the site. Contains PHP scripts for adding, deleting, and editing data.
 📂 Website_Pages: The actual screens the user sees (Login, Dashboard, Signup).
