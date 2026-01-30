@@ -18,6 +18,6 @@ We are using a clean folder structure to stay organized. Please put your files i
 
 | Member | Focus Area | Primary Tasks |
 | :--- | :--- | :--- |
-| Member 1| **Backend & DB** | Database setup, Connection, and CRUD logic (Add/Delete/Edit). |
-| Member 2| **Security & Auth** | Login/Signup systems, Password hashing, and Session management. |
-| Member 3| **Frontend & UI** | Dashboard design, CSS styling, and Data Charts (Chart.js). |
+| Mominul| **Backend & DB** | Database setup, Connection, and CRUD logic (Add/Delete/Edit). |
+| Arafat| **Security & Auth** | Login/Signup systems, Password hashing, and Session management. |
+| Siam| **Frontend & UI** | Dashboard design, CSS styling, and Data Charts (Chart.js). |
