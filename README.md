@@ -2,7 +2,7 @@
 
 
 💰 Expense Tracker - Web Engineering Project
-This project is a Web-based Expense Tracker built with **HTML, CSS, PHP, and MySQL.
+This project is a Web-based Expense Tracker built with HTML, CSS, PHP, and MySQL.
 
 
 ## 📁 Project Structure
