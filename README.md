@@ -12,7 +12,7 @@ We are using a clean folder structure to stay organized. Please put your files i
 📂 Website_Pages: The actual screens the user sees (Login, Dashboard, Signup).
 📂 Design_UI: All CSS files and images to make the site look professional.
 
----
+
 
 ## 👥 Team Roles & Responsibilities
 
