@@ -1,5 +1,5 @@
 <?php
-include '../Database_Setup/connection.php';
+include '../config/database.php';
 session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bind_param("idsss", $user_id, $amount, $category, $desc, $date);
 
     if ($stmt->execute()) {
-        header("Location: ../Website_Pages/dashboard.php?success=1");
+        header("Location: index.php?success=1");
     } else {
         echo "Error: " . $conn->error;
     }
