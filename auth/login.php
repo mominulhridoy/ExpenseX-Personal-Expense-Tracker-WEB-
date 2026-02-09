@@ -1,13 +1,18 @@
-<?php
-// Placeholder for login.php
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Login - Expense Tracker</title>
+    <title>Login - ExpenseX</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    <h1>Login Page</h1>
+    <div class="auth-container">
+        <h2>Login to ExpenseX</h2>
+        <form action="login_action.php" method="POST">
+            <input type="email" name="email" placeholder="Enter Email" required><br>
+            <input type="password" name="password" placeholder="Enter Password" required><br>
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="signup.php">Register here</a></p>
+    </div>
 </body>
 </html>
