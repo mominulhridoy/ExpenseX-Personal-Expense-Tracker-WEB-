@@ -1,12 +1,17 @@
 <?php
-$host = "localhost";
-$user = "root"; 
-$pass = ""; 
-$dbname = "expense_tracker";
+// config/database.php
 
-$conn = new mysqli($host, $user, $pass, $dbname);
+$host = 'localhost';
+$db_name = 'expensex';
+$username = 'root';
+$password = '';
 
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+try {
+    $conn = new PDO("mysql:host={$host};dbname={$db_name}", $username, $password);
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $conn->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+} catch(PDOException $exception) {
+    echo "Connection error: " . $exception->getMessage();
+    exit;
 }
 ?>
