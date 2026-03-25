@@ -25,7 +25,7 @@ This project is a Web-based Expense Tracker built with HTML, CSS, PHP, and MySQL
 
 | Member | Focus Area | Primary Tasks |
 | :--- | :--- | :--- |
-| **Mominul (Lead)** | **Backend & DB** | Database setup, Connection logic, and Core Routing (`index.php`). |
+| **Mominul** | **Backend & DB** | Database setup, Connection logic, and Core Routing (`index.php`). |
 | **Arafat** | **Security & Auth** | Login/Signup systems, Password hashing, and Session management. |
 | **Siam** | **Frontend & UI** | Dashboard design, CSS styling, and Data Visualizations. |
 
